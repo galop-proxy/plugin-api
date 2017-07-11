@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.galop_proxy</groupId>
+    <artifactId>plugin-api</artifactId>
+    <version>0.1.0</version>
+    <packaging>jar</packaging>
+
+    <name>GALOP Plugin API</name>
+    <url>https://github.com/galop-proxy/plugin-api</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Sebastian Schmidt</name>
+            <email>email@sebastian-schmidt.info</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/galop-proxy/plugin-api.git</connection>
+        <developerConnection>scm:git:ssh://github.com:galop-proxy/plugin-api.git</developerConnection>
+        <url>https://github.com/galop-proxy/plugin-api/tree/master</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/galop-proxy/plugin-api/issues</url>
+    </issueManagement>
+    
+    <properties>
+        <encoding>UTF-8</encoding>
+        <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <java.version.source>${java.version}</java.version.source>
+        <java.version.target>${java.version}</java.version.target>
+    </properties>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <source>${java.version.source}</source>
+                    <target>${java.version.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+</project>
