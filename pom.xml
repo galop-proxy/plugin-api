@@ -10,6 +10,7 @@
     <packaging>jar</packaging>
 
     <name>GALOP Plugin API</name>
+    <description>API for developing plugins for the reverse proxy GALOP. The functionality of GALOP can be extended via plugins.</description>
     <url>https://github.com/galop-proxy/plugin-api</url>
 
     <licenses>
