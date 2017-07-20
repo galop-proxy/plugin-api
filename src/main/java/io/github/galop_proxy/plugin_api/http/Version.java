@@ -99,9 +99,7 @@ public final class Version implements Comparable<Version>, Serializable {
      */
     public boolean isGreaterThan(final Version other) {
 
-        if (other == null) {
-            throw new NullPointerException("other must not be null.");
-        }
+        checkOtherVersion(other);
 
         if (major == other.major) {
             return minor > other.minor;
@@ -125,14 +123,20 @@ public final class Version implements Comparable<Version>, Serializable {
      */
     public boolean isLowerThan(final Version other) {
 
-        if (other == null) {
-            throw new NullPointerException("other must not be null.");
-        }
+        checkOtherVersion(other);
 
         if (major == other.major) {
             return minor < other.minor;
         } else {
             return major < other.major;
+        }
+
+    }
+
+    private void checkOtherVersion(final Version other) {
+
+        if (other == null) {
+            throw new NullPointerException("other must not be null.");
         }
 
     }
