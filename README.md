@@ -3,6 +3,7 @@
 [![Release](https://img.shields.io/github/release/galop-proxy/plugin-api.svg)](https://github.com/galop-proxy/plugin-api/releases)
 [![License](https://img.shields.io/github/license/galop-proxy/plugin-api.svg)](https://github.com/galop-proxy/plugin-api/blob/master/LICENSE)
 [![Build status: Linux](https://travis-ci.org/galop-proxy/plugin-api.svg?branch=master)](https://travis-ci.org/galop-proxy/plugin-api)
+[![Build status: Windows](https://ci.appveyor.com/api/projects/status/bdaq7ncw6e23g5ga?svg=true)](https://ci.appveyor.com/project/SebastianSchmidt/plugin-api)
 [![Coverage status](https://coveralls.io/repos/github/galop-proxy/plugin-api/badge.svg?branch=master)](https://coveralls.io/github/galop-proxy/plugin-api?branch=master)
 [![Dependency status](https://www.versioneye.com/user/projects/5964fca2368b0800517b683c/badge.svg)](https://www.versioneye.com/user/projects/5964fca2368b0800517b683c)
 
