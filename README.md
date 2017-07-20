@@ -6,4 +6,4 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/5964fca2368b0800517b683c/badge.svg)](https://www.versioneye.com/user/projects/5964fca2368b0800517b683c)
 
 **The support of plugins in GALOP is currently being developed.
-In the next minor release of GALOP, plugins will be supported.**
+Plugins will be supported in one of the next minor releases.**
