@@ -8,6 +8,7 @@
 [![Known vulnerabilities](https://snyk.io/test/github/galop-proxy/plugin-api/badge.svg)](https://snyk.io/test/github/galop-proxy/plugin-api)
 [![Code quality: Codebeat](https://codebeat.co/badges/fde091dc-46a0-44bc-8742-26230b7ee612)](https://codebeat.co/projects/github-com-galop-proxy-plugin-api-master)
 [![Code quality: Codacy](https://api.codacy.com/project/badge/Grade/d5bf6df6d0574bd3b764ee64f66b9f65)](https://www.codacy.com/app/SebastianSchmidt/plugin-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=galop-proxy/plugin-api&amp;utm_campaign=Badge_Grade)
+[![Code quality: Code Climate](https://api.codeclimate.com/v1/badges/952038d51774a07ade22/maintainability)](https://codeclimate.com/github/galop-proxy/plugin-api/maintainability)
 
 **The support of plugins in GALOP is currently being developed.
 Plugins will be supported in one of the next minor releases.**
