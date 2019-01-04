@@ -51,7 +51,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>23.2-jre</version>
+            <version>24.1.1-jre</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -204,7 +204,7 @@
                         <manifestEntries>
                             <Specification-Vendor>${project.developers[0].name}</Specification-Vendor>
                             <Implementation-Vendor>${project.developers[0].name}</Implementation-Vendor>
-                            <Built-By /><!-- Do not write the local user name into the manifest. -->
+                            <Built-By/><!-- Do not write the local user name into the manifest. -->
                             <X-Compile-Source-JDK>${java.version}</X-Compile-Source-JDK>
                             <X-Compile-Target-JDK>${java.version}</X-Compile-Target-JDK>
                         </manifestEntries>
